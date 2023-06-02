@@ -8,4 +8,4 @@ Contents:
 - Video of working project --> manually triggering the pump relay
 
 Remarks:
--The fill level sensor is not working in the final setup --> long cable to balcony caused a slight voltage drop --> sensor not properly reading anymore --> adjustable powersupply to compensate for that is planned but not yet installed
+- The fill level sensor is not working in the final setup --> long cable to balcony caused a slight voltage drop --> sensor not properly reading anymore --> adjustable powersupply to compensate for that is planned but not yet installed
