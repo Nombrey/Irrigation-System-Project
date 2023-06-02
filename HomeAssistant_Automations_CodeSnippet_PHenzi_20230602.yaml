@@ -1,0 +1,14 @@
+
+- id: '1682625891547'
+  alias: Everday at watering_start_time - Turn on Watering Pump (GPIO 0)
+  description: ''
+  trigger:
+  - platform: time
+    at: input_datetime.watering_start_time
+  condition: []
+  action:
+  - service: homeassistant.toggle
+    data: {}
+    target:
+      entity_id: switch.rapberry_pico_w_balcony_relay_gpo0
+  mode: single
